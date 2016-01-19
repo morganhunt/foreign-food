@@ -1,0 +1,64 @@
+.header{
+	height: 145px;
+}
+
+.colorful{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: blue;
+	max-height: 80%;
+	padding: 0px;
+	margin: 0px;
+}
+
+.scrolling{
+	text-align: center;
+	font-family: "Parkavenue", cursive;
+	overflow: auto;
+	overflow-y: scroll;
+
+	/*This part below is the middle design; above this is the styling for the text itself.*/
+	background-color: rgb(241, 232, 224);
+	opacity: .8;
+	width: 600px;
+	max-height: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.scrolling .food-pictures{
+	width: 25%;
+}
+
+#name{
+	float: left;
+	padding-left: 120px;
+	padding-bottom: -200px;
+	font-family: "Brushstroke", fantasy;
+	font-size: 125;
+	position: absolute;
+	margin: 0px;
+	margin-bottom: -100px;
+	z-index: 400;
+}
+
+img{
+	width: 100%;
+}
+
+.header img{
+	width: auto;
+	height: 120px;
+	
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+.header #home-button{
+	position: absolute;
+	z-index: 400;
+	right: 10px;
+	top: 115px;
+}
